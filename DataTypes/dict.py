@@ -44,3 +44,7 @@ d=dict.fromkeys(l)
 print(d)   #{'name': None, 'age': None, 'city': None}
 d=dict.fromkeys(l,"aditya")
 print(d)  #{'name': 'aditya', 'age': 'aditya', 'city': 'aditya'}
+
+#4. keys() method :- it give all the key of the dict
+d={'name':'aditya','age':20,'city':'bhopal'}
+print(d.keys()) #(['name', 'age', 'city']) it give keys in list 
