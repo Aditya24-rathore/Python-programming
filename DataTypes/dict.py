@@ -47,4 +47,8 @@ print(d)  #{'name': 'aditya', 'age': 'aditya', 'city': 'aditya'}
 
 #4. keys() method :- it give all the key of the dict
 d={'name':'aditya','age':20,'city':'bhopal'}
-print(d.keys()) #(['name', 'age', 'city']) it give keys in list 
+print(d.keys()) #(['name', 'age', 'city']) it give keys in list
+
+#5. values() method:- it give all the key of the dict
+d={'name':'aditya','age':20,'city':'bhopal'}
+print(d.values()) #(['aditya', 20, 'bhopal']) it give values in list
