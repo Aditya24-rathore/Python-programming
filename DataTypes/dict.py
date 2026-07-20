@@ -54,3 +54,39 @@ d={'name':'aditya','age':20,'city':'bhopal'}
 print(d.values()) #(['aditya', 20, 'bhopal']) it give values in list
 d={'name':'aditya','age':20}
 print(d.values)
+
+#6. get():- give a value by their key
+d={'name':'aditya','age':21}
+d1=d.get('age') #21
+print(d1)
+
+#7. items():- Give key and value both. It will give list of tuple
+d={'name':'aditya','age':21}
+d1=d.items()
+print(d1) #dict_items([('name', 'aditya'), ('age', 21)])
+
+#8. pop:- remove key and value both on the basis of providing key. It also return the deleted value
+d={'name':'aditya','age':21,'city':'sehore'}
+d1=d.pop('city')
+print(d1) #sehore
+print(d) #{'name': 'aditya', 'age': 21}
+
+#9. popitems:- remove the last key and value 
+d={'name':'aditya','age':21,'city':'sehore'}
+d1=d.popitem()
+print(d1) #('city', 'sehore')
+
+#10. setdefault():- set a value against key. If value is already assigned it give a error
+d={'name':'adi','city':'bhopal','quali':'Btech','age':None}
+d.setdefault('Branch','cse') #{'name': 'adi', 'city': 'bhopal', 'quali': 'Btech', 'Branch': 'cse'}
+print(d)
+d.setdefault('age',21)
+print(d)
+
+
+# 11. update():- update the dict
+d={'name':'aditya','age':'20'}
+d.update({'age':21})
+print(d) #{'name': 'aditya', 'age': 21}
+d.update({'name':'adi','city':'sehore'})
+print(d) #{'name': 'adi', 'age': 21, 'city': 'sehore'}
