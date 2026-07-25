@@ -90,3 +90,10 @@ d.update({'age':21})
 print(d) #{'name': 'aditya', 'age': 21}
 d.update({'name':'adi','city':'sehore'})
 print(d) #{'name': 'adi', 'age': 21, 'city': 'sehore'}
+
+# CRUD IN dict
+d={} #create dict
+d['name']='aditya' # update and add key value
+d['age']=21
+del d['age']
+print(d)
