@@ -12,3 +12,4 @@ if x==y:
 if x==y:
     print('xyz')
 print('abc') #These is not a part of condition statement these will be print
+
