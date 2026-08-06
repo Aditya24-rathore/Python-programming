@@ -1,0 +1,5 @@
+n="python"
+rev=""
+for i in n:
+    rev=i+rev
+print(rev)
